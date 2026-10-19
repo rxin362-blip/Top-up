@@ -1,0 +1,625 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* service */
+.service {
+    width: 100%;
+    padding: 40px 10px;
+}
+.service .container {
+    width: 100%;
+    margin: auto;
+    border-radius: 20px;
+}
+.service .card {
+    width: 100%;
+    padding: 28px 10px;
+    background-color: teal;
+    border-radius: 10px;
+    text-align: center;
+}
+.service .card .title {
+    color: white;
+    font-size: 30px;
+}
+.service .card .img{
+    width: 120px;
+    margin-top: 16px;
+    background-color: #00000008;
+    border-radius: 10px;
+}
+.bg-danger {
+    background-color: #fa7979 !important;
+}
+.bg-warning{
+    background-color: #f7f771 !important;
+}
+.bg-success{
+    background-color: #77f477 !important;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.row > *{
+    padding: 10px;
+}
+
+.banner{
+    width: 100%;
+    padding: 40px 10px;
+}
+.banner .container{
+    width: 1200px;
+    margin: auto;
+}
+.banner .card{
+    width: 100%;
+    border-radius: 10px;
+}
+.banner .card img{
+    width: 400px;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.banner .row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.banner .title{
+    font-size: 28px;
+    margin-bottom: 60px;
+    
+}
+.banner .sub-title{
+    
+    font-size: 20px;
+   
+}
+.banner .btn{
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 14px;
+    color: aliceblue;
+    border: 1px solid black;
+    border-radius:10px;
+    padding: 10px 20px;
+    background-color: #000000;
+    text-decoration: none;
+}
+/* banner2 */
+.banner2{
+    width: 100%;
+}
+.banner2 .container{
+    width: 1200px;
+    margin: auto;
+}
+.banner2 .header{
+    text-align: center;
+    padding: 10px 300px;
+}
+.banner2 .header .title{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.banner2 .header .text{
+    color: #585858;
+}
+.banner2 .card {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid hsla(0, 1%, 70%, 0.643);
+    border-radius: 10px;
+    
+}
+.banner2 .card .img {
+    width: 100%;
+    background-color: #00000008;
+    position: relative;
+    border-radius: 10px;   
+}
+.banner2 .card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.banner2 .rate{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #ef4108;
+    border: 2px solid #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.banner2 .card .title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.banner2 .card .title .sub-title{
+    font-size: 18px;
+}
+.banner2 .card .title .price{
+    color: orange;
+}
+.banner2 .card .text{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.banner2 .card .text .sub-text{
+    font-size: 14px;
+    color: #585858;
+}
+.bi-cart-fill{
+    color: #f8f4f4;
+    border:1px solid black;
+    border-radius: 30px;
+    padding: 6px 8px;
+    background-color: #000000cb;
+}
+.banner2 .card:hover {
+    border: 1px solid#ef4108;
+}
+/* contact */
+.contact{
+    width: 100%;
+    padding: 50px 0;
+    
+}
+.contact .container{
+    margin: auto;
+    width: 1200px;
+    
+}
+.contact .card{
+    width: 100%;
+    animation-name: animation;
+    animation-duration: 3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    /* padding: 20px; */
+}
+.contact .card1{
+    width: 100%;
+    padding: 20px;
+    background-color: #00000008;
+}
+.contact .text{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.contact .form-label{
+    display: inline-block;
+    font-weight: 600;
+    font-size: 16px;
+    color: #29292a;
+    margin-bottom: 10px;
+
+}
+.contact .form-control{
+    font-size: 16px;
+    padding: 10px;
+    color: #28292a;
+    width: 100%;
+    outline: none;
+}
+.contact .textarea{
+    font-size: 16px;
+    height: 150px;
+    padding: 10px;
+    color: #28292a;
+    width: 100%;
+    outline: none;
+    resize: vertical;
+}
+.contact .textarea:focus{
+    border-color: #dd6007;
+    
+}
+.contact .form-control:focus{
+    border-color: #dd6007;
+    /* box-shadow: 0px 0px 1px 4px coral; */
+}
+.contact .form-control::placeholder{
+    color: #fa7979;
+}
+.contact .mb{
+    margin-bottom: 10px;
+}
+.contact .title{
+    font-size: 22px;
+}
+.contact .btn{
+    width: 150px;
+    font-size: 16px;
+    color: #fdfafa;
+    border: 1px solid rgb(242, 255, 0);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(255, 170, 0, 0.952);
+}
+.contact .btn:hover{
+    background-color: rgba(255, 47, 0, 0.704);
+}
+
+@keyframes animation {
+    0%{transform: translateY(-10px);}
+    100%{transform: translateY(10px);}
+}
+/* contact2 */
+.contact2{
+    width: 100%;
+    padding: 50px 0;
+    
+}
+.contact2 .container{
+    margin: auto;
+    width: 1200px;
+    
+}
+.contact2 .card{
+    width: 100%;
+    
+    /* padding: 20px; */
+}
+.contact2 .title{
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+.contact2 .card .text{
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #000000;
+}
+.boder{
+    margin-bottom: 20px;
+}
+.contact2 .card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* footer */
+.footer1{
+    width: 100%;
+    padding: 50px 40px;
+    background-color: #a5a4a473;
+}
+.footer1 .container{
+    width: 1200px;
+    margin: auto;
+}
+.footer1 .card{
+    width: 100%;
+    padding: 10px 30px;
+}
+.footer1 .logo
+{
+    width: 140px;
+}
+.footer1 .logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.footer1 .title{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.footer1 .link{
+    display: inline-flex;
+    font-size: 16px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: #585858;
+}
+/* footer2 */
+.footer2{
+    width: 100%;
+    padding: 20px 40px;
+    background-color: #000000;
+}
+.footer2 .container{
+    width: 1200px;
+    margin: auto;
+   
+}
+
+.footer2 .card{
+    width: 100%;
+    
+}
+.footer2 .text-end{
+    text-align: right;
+}
+
+.footer2 .text{
+    font-size: 16px;
+    color: #f8f4f4;
+}
+
+
+
+
+
+
+
+
+
+
+
+.col-1{
+    width: 8.333333%;
+}
+.col-2{
+    width: 16.666666%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.333333%;
+}
+.col-5{
+    width: 41.666666%;
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58.333333%;
+}
+.col-8{
+    width: 66.666666%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.333333%;
+}
+.col-11{
+    width: 91.666666%;
+}
+.col-12{
+    width: 100%;
+}
+
+/* xs<576 */
+@media screen and (max-width: 576px){
+    .container{
+        width: 100%;
+    }
+
+}
+/* sm>=576 */
+@media screen and (min-width: 576px){
+    .container{
+        width: 540px;
+    }
+    .col-sm-1{
+    width: 8.333333%;
+    }
+    .col-sm-2{
+        width: 16.666666%;
+    }
+    .col-sm-3{
+        width: 25%;
+    }
+    .col-sm-4{
+        width: 33.333333%;
+    }
+    .col-sm-5{
+        width: 41.666666%;
+    }
+    .col-sm-6{
+        width: 50%;
+    }
+    .col-sm-7{
+        width: 58.333333%;
+    }
+    .col-sm-8{
+        width: 66.666666%;
+    }
+    .col-sm-9{
+        width: 75%;
+    }
+    .col-sm-10{
+        width: 83.333333%;
+    }
+    .col-sm-11{
+        width: 91.666666%;
+    }
+    .col-sm-12{
+        width: 100%;
+    }
+    
+}
+/* md>=768 */
+@media screen and (min-width: 768px){
+    .container{
+        width: 720px;
+    }
+    .col-md-1{
+    width: 8.333333%;
+    }
+    .col-md-2{
+        width: 16.666666%;
+    }
+    .col-md-3{
+        width: 25%;
+    }
+    .col-md-4{
+        width: 33.333333%;
+    }
+    .col-md-5{
+        width: 41.666666%;
+    }
+    .col-md-6{
+        width: 50%;
+    }
+    .col-md-7{
+        width: 58.333333%;
+    }
+    .col-md-8{
+        width: 66.666666%;
+    }
+    .col-md-9{
+        width: 75%;
+    }
+    .col-md-10{
+        width: 83.333333%;
+    }
+    .col-md-11{
+        width: 91.666666%;
+    }
+    .col-md-12{
+        width: 100%;
+    }
+    
+}
+/* lg>=992 */
+@media screen and (min-width: 992px){
+    .container{
+        width: 960px;
+    }
+    .col-lg-1{
+    width: 8.333333%;
+    }
+    .col-lg-2{
+        width: 16.666666%;
+    }
+    .col-lg-3{
+        width: 25%;
+    }
+    .col-lg-4{
+        width: 33.333333%;
+    }
+    .col-lg-5{
+        width: 41.666666%;
+    }
+    .col-lg-6{
+        width: 50%;
+    }
+    .col-lg-7{
+        width: 58.333333%;
+    }
+    .col-lg-8{
+        width: 66.666666%;
+    }
+    .col-lg-9{
+        width: 75%;
+    }
+    .col-lg-10{
+        width: 83.333333%;
+    }
+    .col-lg-11{
+        width: 91.666666%;
+    }
+    .col-lg-12{
+        width: 100%;
+    }
+}
+/* xl>=1200 */
+@media screen and (min-width: 1200px){
+    .container{
+        width: 1140px;
+    }
+    .col-xl-1{
+    width: 8.333333%;
+    }
+    .col-xl-2{
+        width: 16.666666%;
+    }
+    .col-xl-3{
+        width: 25%;
+    }
+    .col-xl-4{
+        width: 33.333333%;
+    }
+    .col-xl-5{
+        width: 41.666666%;
+    }
+    .col-xl-6{
+        width: 50%;
+    }
+    .col-xl-7{
+        width: 58.333333%;
+    }
+    .col-xl-8{
+        width: 66.666666%;
+    }
+    .col-xl-9{
+        width: 75%;
+    }
+    .col-xl-10{
+        width: 83.333333%;
+    }
+    .col-xl-11{
+        width: 91.666666%;
+    }
+    .col-xl-12{
+        width: 100%;
+    }
+}
+/* xxl>=1400 */
+@media screen and (min-width: 1400px){
+    .container{
+        width: 1320px;
+    }
+    .col-1{
+    width: 8.333333%;
+}
+.col-2{
+    width: 16.666666%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.333333%;
+}
+.col-5{
+    width: 41.666666%;
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58.333333%;
+}
+.col-8{
+    width: 66.666666%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.333333%;
+}
+.col-11{
+    width: 91.666666%;
+}
+.col-12{
+    width: 100%;
+}
+}
